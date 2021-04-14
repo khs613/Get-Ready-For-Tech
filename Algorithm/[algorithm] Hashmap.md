@@ -1,13 +1,12 @@
-### Hashmap  
----  
+## Hashmap  
 
-#### Hashmap 특징  
+### Hashmap 특징  
 - null key와 null value를 모두 허용  
 - 동기화 보장하지 않는다.  
 - 데이터의 순서를 보장하지 않는다.  
 - 중복된 key 값을 허용하진 않지만, 중복된 값(value) 허용  
 
-#### Hashmap API  
+### Hashmap API  
 - put(K key, V value)  
 - putAll(Map<? extends K,? extends V> m)  
 - get(Object key)  
@@ -21,15 +20,15 @@
 - replace(K key, V value)  
 - getOrDefault(Object key, V defaultValue)  
 
-##### keySet()  
+#### keySet()  
 - Hashmap에 저장된 key들을 Set 객체로 리턴해준다.  
 
-##### getOrDefault()  
+#### getOrDefault()  
 - getOrDefault(Object key, V defaultValue)  
 - 찾는 key가 존재하면 찾는 키의 값(value)를 반환하고, 없다면 기본 값(dafaultValue)을 반환한다.  
 
 
-#### 알고리즘 문제 - 프로그래머스  
+### 알고리즘 문제 - 프로그래머스  
 - [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)  
 
 - 조건  
